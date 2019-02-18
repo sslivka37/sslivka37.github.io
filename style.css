@@ -1,0 +1,129 @@
+* {
+	font-family: calibri;
+	line-height: 1.618em;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	font-size: 16px;
+}
+
+header {
+	padding: 2em 0;
+	margin-top: 2em;
+}
+
+h1, h2, h3{
+	color: #666;
+}
+
+header,
+main,
+footer{
+	margin: 0 auto;
+	max-width: 800px;
+
+}
+
+header h1 {
+	font-size: 3em;
+}
+
+#siteLinks {
+	margin-top: 3em;
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+
+}
+
+
+#siteLinks a {
+	padding: 2.25em 3em;
+	text-decoration: none;
+	font-size: 1.5em;
+	color: #333;
+}
+
+#siteLinks a:hover {
+	background: #666;
+	color:#fff;
+
+}
+
+nav {
+	position:fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+
+	background: #333;
+
+}
+
+nav a {
+	padding: .5em 2em;
+	text-decoration: none;
+	color: #fff;
+}
+
+nav a:hover {
+	background: #666;
+}
+
+
+
+
+
+section {
+	margin: 1em 0;
+	padding: 2em;
+	min-height: 1.5em;
+}
+
+section > p{
+	margin: 1em 0;
+}
+
+
+section ul{
+	padding-left: 1.5em;
+}
+
+#projects {
+	display:grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: auto;
+	grid-column-gap: 1em;
+}
+
+#projects article{
+	background: #ccc;
+	padding: 1em;
+}
+
+#projects article img{
+	width: 100%;
+}
+
+#aboutMe img{
+	height: 352px;
+	width: 300px;
+}
+
+
+
+footer {
+	margin-top: 2em;
+	margin-bottom: 1em;
+	background: #666;
+	color: #fff;
+	padding: 1em 0;
+	text-align: center;
+}
