@@ -16,7 +16,7 @@ header {
 }
 
 h1, h2, h3{
-	color: #666;
+	color: #372D32;
 }
 
 header,
@@ -31,27 +31,7 @@ header h1 {
 	font-size: 3em;
 }
 
-#siteLinks {
-	margin-top: 3em;
-	display: flex;
-	flex-flow: row;
-	justify-content: center;
 
-}
-
-
-#siteLinks a {
-	padding: 2.25em 3em;
-	text-decoration: none;
-	font-size: 1.5em;
-	color: #333;
-}
-
-#siteLinks a:hover {
-	background: #666;
-	color:#fff;
-
-}
 
 nav {
 	position:fixed;
@@ -74,11 +54,8 @@ nav a {
 }
 
 nav a:hover {
-	background: #666;
+	background: #6A5374;
 }
-
-
-
 
 
 section {
@@ -96,6 +73,42 @@ section ul{
 	padding-left: 1.5em;
 }
 
+#aboutMe{
+	padding-bottom: 2em;
+}
+
+#aboutMe img{
+	height: 235px;
+	width: 200px;
+}
+
+
+#siteLinks {
+	margin-top: 5em;
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+
+}
+
+
+#siteLinks a {
+
+	padding: 2.25em 3em;
+	text-decoration: none;
+	font-size: 1.5em;
+	color: #333;
+}
+
+#siteLinks a:hover {
+	background: #6A5374;
+	color:#fff;
+
+}
+
+
+
+
 #projects {
 	display:grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -104,7 +117,7 @@ section ul{
 }
 
 #projects article{
-	background: #ccc;
+	background: #9A8C93;
 	padding: 1em;
 }
 
@@ -112,10 +125,17 @@ section ul{
 	width: 100%;
 }
 
-#aboutMe img{
-	height: 352px;
-	width: 300px;
+#projects a{
+	padding: .5em .45em;
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.25em;
 }
+
+#projects a:hover{
+	background: #6A5374;
+}
+
 
 
 
