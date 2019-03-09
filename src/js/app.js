@@ -31,11 +31,11 @@ for (i = 0; i < collapsible.length; i++) {
   });
 }
 
-function toggleNav() {
-  var nav = document.getElementById("toggleNav");
-  if (x.style.display === "none") {
-    x.style.display = "block";
+function showOrHide() {
+  var menu = document.getElementById("navMenu");
+  if (menu.style.display === "block") {
+    menu.style.display = "none";
   } else {
-    x.style.display = "none";
+    menu.style.display = "block";
   }
 }
