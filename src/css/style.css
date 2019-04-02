@@ -236,6 +236,7 @@ section ul{
   display: flex;
   padding: 1em;
   color: #fff;
+  font-size: 4em;
   font-weight: bold;
   text-shadow: 0 0 2px #000;
   transition: 0.5s;
